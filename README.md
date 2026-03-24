@@ -61,7 +61,7 @@ This repository targets Oracle Database environments that support SQL Property G
 - SQL client: SQL Developer or SQLcl with support for the `CREATE PROPERTY GRAPH` syntax.
 - Optional import utility: SQL*Loader or `DBMS_CLOUD` if CSVs are loaded outside SQL Developer / SQLcl.
 
-If your target environment does not support vector types or vector functions, avoid the vector parts of [oracle-movie-graph-full.sql](/Users/qizou/aiworkspace/graph-demo/oracle-movie-graph-full.sql).
+If your target environment does not support vector types or vector functions, avoid the vector parts of `oracle-movie-graph-full.sql`.
 
 ## Minimum Privileges
 
@@ -135,5 +135,5 @@ Recommended preparation rules:
 ## Notes
 
 - Scripts are written for Oracle SQL / Property Graph scenarios.
-- [oracle-movie-graph-full.sql](/Users/qizou/aiworkspace/graph-demo/oracle-movie-graph-full.sql) contains the most complete example set.
-- Some scripts are repeatable and include cleanup blocks; [graph-demo.sql](/Users/qizou/aiworkspace/graph-demo/graph-demo.sql) is currently closer to a one-shot demo and may need manual cleanup before rerun.
+- `oracle-movie-graph-full.sql` contains the most complete example set.
+- Some scripts are repeatable and include cleanup blocks; `graph-demo.sql` is currently closer to a one-shot demo and may need manual cleanup before rerun.
