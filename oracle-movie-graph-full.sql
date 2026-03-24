@@ -255,7 +255,7 @@ CREATE TABLE user_rating_rel_stage (
 -- 2) SQLcl 导入模板（与 graph_build.py 加载顺序一致）
 -- -----------------------------------------------------------------------------
 -- SQL> set sqlformat csv
--- SQL> cd /Users/qizou/Downloads
+-- SQL> cd /path/to/csv-files
 -- SQL> truncate table movies_pg_stage;
 -- SQL> truncate table genres_pg_stage;
 -- SQL> truncate table production_companies_pg_stage;

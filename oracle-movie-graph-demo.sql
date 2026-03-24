@@ -45,7 +45,7 @@ CREATE TABLE movies_pg_stage (
 --
 -- [方式 B] SQLcl 内置 load 命令
 --   SQL> set sqlformat csv
---   SQL> cd /Users/qizou/Downloads
+--   SQL> cd /path/to/csv-files
 --   SQL> truncate table movies_pg_stage;
 --   SQL> load movies_pg_stage normalized_movies.csv
 --   SQL> select count(*) from movies_pg_stage;
